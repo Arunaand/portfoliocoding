@@ -1,0 +1,514 @@
+/* Navigation styles */
+button {
+    border-radius: 24px;
+}
+/*.logo {
+
+    background: white;
+    height: 230px;
+    background-image: url("../images/Frame 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.left, .right {
+    width: 25%
+}*/
+
+.center {
+    width: 90%;
+}
+
+.center a {
+    color: white;
+    padding: 60px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: arial;
+}
+
+/*.right button {
+    background-color: skyblue;
+    color:black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+}
+
+.left button {
+    background-color: skyblue;
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+}*/
+/* Column Styles */
+.column {
+   text-align: center;
+    display: flex;
+    height: 1200px;
+    max-width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.casestudy1, .casestudy2, .casestudy3, .casestudy4, .casestudy5 {
+    /*height: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    border-radius: 48px;*/
+    background-position: center;
+    height: 500px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: blue;
+    border-radius: 48px;
+    background-image: url("../images/casestudy1.png");
+}
+
+/*caseStudy1 {
+    background-position: center;
+    height: 500px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: blue;
+    border-radius: 48px;
+    background-image: url("../images/casestudy1.png");
+}*/
+
+.casestudy1 {
+    /*margin-top:20px;*/
+    background-image: url("../images/casestudy1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*border-radius: 48px;*/
+}
+
+.casestudy2 {
+    background-image: url("../images/casestudy2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.casestudy3 {
+    background-image: url("../images/casestudy3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.caseStudyPortfolio {
+    background-position: center;
+    height: 500px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: blue;
+    border-radius: 48px;
+    background-image: url("../images/casestudy3.png");
+
+}
+.text {
+    background: rgb(0,0,0,0.7);
+    width: 84%;
+    padding: 20px 40px;
+    color: white;
+}
+
+.text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;}
+    #content {overflow: auto;}
+    #nav, #feature, #footer {
+        margin: 1%}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+
+    .articlecolumn3 {margin-right: 0%;}
+    li {
+        display: inline;
+        padding: 0.5em;}
+    #nav, #footer {
+        background-color: efefef;
+        padding: 0.5em;}
+    #feature, .article {
+        height: 10em;
+        margin-bottom: 1em;
+        background-color: 8F5B34;}
+
+/*About page*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #bcb8a1;
+  }
+  
+  body{
+    text-align:center;
+    background-color: #cfcfce;
+    font-family: Arial, Helvetica, sans-serif;
+    h1.h2 {
+      color: #0a0601
+    }
+ }
+ .div2{
+    background: #adac94;
+    border: 1px solid black;
+    padding:30px;
+    width: 350px;
+    height: 350px;
+ }
+/*casestudy1*/
+.newspaper {
+    border: solid black 1px;
+    background-color: rgb(222, 209, 189);
+    column-count: 3;
+    column-gap: 40px;
+  }
+
+
+
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: black;
+    height: 100px;
+}
+
+.footer a{ 
+    padding: 40px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+   
+.ig {
+    color: red;
+}
+
+.fb {
+    color: skyblue;
+}
+.lin {
+    color: yellow;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Top right text */
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+  }
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+
+    /* Portfolio */
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        background-color: #f1f1f1;
+        padding: 20px;
+        font-family: Arial;
+      }
+      
+      /* Center website */
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+      
+      h1 {
+        font-size: 50px;
+        word-break: break-all;
+      }
+      
+      .row {
+        margin: 8px -16px;
+      }
+      
+      /* Add padding BETWEEN each column */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+      
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+      }
+      
+      /* Clear floats after rows  
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 900px) {
+        .column {
+          width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+      /* contact page */
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Style inputs */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+
+      /* About Me */
+      body {
+        /* Typography Declarations */
+        color: #222222;
+        font-size: 1em;
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    
+    .content-footer,
+    .masthead-heading,
+    .masthead-intro {
+      text-align: center;
+    }
+    
+    .masthead {
+      padding: 6em 0;
+      background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-top: solid 1em #FFCF33;
+    }
+    
+    .masthead-intro {
+        /* Layout Declarations */
+        margin-bottom: 0.1em;
+        /* Typography Declarations */
+        font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 2em;
+    }
+    
+    .masthead-heading {
+        /* Layout Declarations */
+        color: #F1C863;
+        margin-top: -0.2em;
+        /* Typography Declarations */
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        font-size: 6em;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+    }
+    
+    .introduction-section,
+    .location-section,
+    .questions-section {
+        max-width: 38em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+    }
+    
+    .introduction-section > p,
+    .location-section > p,
+    .questions-section,
+    .content-footer > p {
+        /* Typography Declarations */
+        font-weight: 300;
+        letter-spacing: 0.05em;
+    }
+    
+    .questions-section > h2 {
+        font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        /* Layout */
+        margin: 2em 0 1em 0;
+    }
+    
+    section > h1 {
+        margin-top: 2em;
+    }
+    
+    .content-footer,
+    .masthead-heading,
+    .masthead-intro {
+      text-align: center;
+    }
+    
+    .masthead {
+      padding: 6em 0;
+      background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-top: solid 1em #FFCF33;
+    }
+    
+    .masthead-intro {
+      margin-bottom: 0.1em;
+      font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 2em;
+    }
+    
+    .masthead-heading {
+      margin-top: -0.2em;
+      font-family: "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: bold;
+      font-size: 6em;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+    }
+    .introduction > p,
+    .location > p,
+    .content-footer > p {
+        /* Typography Declarations */
+        font-weight: 300;
+        letter-spacing: 0.05em;
+    }
+    h2 {
+        /* Typography Declarations */
+        font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    
+    .introduction-section,
+    .location-section,
+    .questions-section {
+        max-width: 38em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+    }
+/* end about me */
+
+/* @media rule */
+/*body {
+  background-color: yellow;
+}*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* end @media rule */
